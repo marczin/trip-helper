@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B1D81425B1DDCA0038CFDA /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1D81325B1DDCA0038CFDA /* MainScreenViewModel.swift */; };
+		18B1D81725B1E3100038CFDA /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1D81625B1E3100038CFDA /* TripTableViewCell.swift */; };
+		18B1D81A25B1E65E0038CFDA /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1D81925B1E65E0038CFDA /* Trip.swift */; };
+		18B1D81D25B30AEE0038CFDA /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1D81C25B30AEE0038CFDA /* ItemListViewController.swift */; };
+		18B1D82125B30E890038CFDA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1D82025B30E890038CFDA /* TabBarViewController.swift */; };
+		18B1D82425B330690038CFDA /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1D82325B330690038CFDA /* ItemListView.swift */; };
+		18C9C8E125B37037007C3364 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9C8E025B37037007C3364 /* TabBarViewModel.swift */; };
 		18DB6FCC25B075B300BA7684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6FCB25B075B300BA7684 /* AppDelegate.swift */; };
-		18DB6FCE25B075B300BA7684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6FCD25B075B300BA7684 /* SceneDelegate.swift */; };
-		18DB6FD025B075B300BA7684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6FCF25B075B300BA7684 /* ViewController.swift */; };
-		18DB6FD325B075B300BA7684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DB6FD125B075B300BA7684 /* Main.storyboard */; };
 		18DB6FD525B075B600BA7684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DB6FD425B075B600BA7684 /* Assets.xcassets */; };
 		18DB6FD825B075B600BA7684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DB6FD625B075B600BA7684 /* LaunchScreen.storyboard */; };
+		18DB6FE325B07DA700BA7684 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6FE225B07DA700BA7684 /* MainScreenController.swift */; };
+		18DB6FE625B07E1500BA7684 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6FE525B07E1500BA7684 /* MainScreenView.swift */; };
+		FC6B0AC09844E673F7036FE1 /* Pods_trip_helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0FDF2636F4537B30B73C48 /* Pods_trip_helper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B1D81325B1DDCA0038CFDA /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		18B1D81625B1E3100038CFDA /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		18B1D81925B1E65E0038CFDA /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		18B1D81C25B30AEE0038CFDA /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		18B1D82025B30E890038CFDA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		18B1D82325B330690038CFDA /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		18C9C8E025B37037007C3364 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		18DB6FC825B075B300BA7684 /* trip helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trip helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DB6FCB25B075B300BA7684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18DB6FCD25B075B300BA7684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18DB6FCF25B075B300BA7684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18DB6FD225B075B300BA7684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DB6FD425B075B600BA7684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DB6FD725B075B600BA7684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DB6FD925B075B600BA7684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DB6FE225B07DA700BA7684 /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		18DB6FE525B07E1500BA7684 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		33D09DD5DEE96044EC890704 /* Pods-trip helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trip helper.debug.xcconfig"; path = "Target Support Files/Pods-trip helper/Pods-trip helper.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0FDF2636F4537B30B73C48 /* Pods_trip_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trip_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37BCF287ABEC6FA39B0D8B8 /* Pods-trip helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trip helper.release.xcconfig"; path = "Target Support Files/Pods-trip helper/Pods-trip helper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6B0AC09844E673F7036FE1 /* Pods_trip_helper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B1D81F25B30E5C0038CFDA /* tabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18B1D81C25B30AEE0038CFDA /* ItemListViewController.swift */,
+			);
+			path = tabBarControllers;
+			sourceTree = "<group>";
+		};
 		18DB6FBF25B075B300BA7684 = {
 			isa = PBXGroup;
 			children = (
 				18DB6FCA25B075B300BA7684 /* trip helper */,
 				18DB6FC925B075B300BA7684 /* Products */,
+				1969009768E674F077981B39 /* Pods */,
+				83641C1A400A06E73089B743 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,70 @@
 		18DB6FCA25B075B300BA7684 /* trip helper */ = {
 			isa = PBXGroup;
 			children = (
+				18DB6FEC25B1DB6D00BA7684 /* viewModel */,
+				18DB6FEB25B1DB6600BA7684 /* model */,
+				18DB6FE125B07D8000BA7684 /* view */,
+				18DB6FE025B07D7800BA7684 /* controller */,
 				18DB6FCB25B075B300BA7684 /* AppDelegate.swift */,
-				18DB6FCD25B075B300BA7684 /* SceneDelegate.swift */,
-				18DB6FCF25B075B300BA7684 /* ViewController.swift */,
-				18DB6FD125B075B300BA7684 /* Main.storyboard */,
 				18DB6FD425B075B600BA7684 /* Assets.xcassets */,
 				18DB6FD625B075B600BA7684 /* LaunchScreen.storyboard */,
 				18DB6FD925B075B600BA7684 /* Info.plist */,
 			);
 			path = "trip helper";
+			sourceTree = "<group>";
+		};
+		18DB6FE025B07D7800BA7684 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B1D81F25B30E5C0038CFDA /* tabBarControllers */,
+				18DB6FE225B07DA700BA7684 /* MainScreenController.swift */,
+				18B1D82025B30E890038CFDA /* TabBarViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		18DB6FE125B07D8000BA7684 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18DB6FE525B07E1500BA7684 /* MainScreenView.swift */,
+				18B1D82325B330690038CFDA /* ItemListView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18DB6FEB25B1DB6600BA7684 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18B1D81625B1E3100038CFDA /* TripTableViewCell.swift */,
+				18B1D81925B1E65E0038CFDA /* Trip.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		18DB6FEC25B1DB6D00BA7684 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B1D81325B1DDCA0038CFDA /* MainScreenViewModel.swift */,
+				18C9C8E025B37037007C3364 /* TabBarViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		1969009768E674F077981B39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D09DD5DEE96044EC890704 /* Pods-trip helper.debug.xcconfig */,
+				D37BCF287ABEC6FA39B0D8B8 /* Pods-trip helper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		83641C1A400A06E73089B743 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FDF2636F4537B30B73C48 /* Pods_trip_helper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DB6FDC25B075B600BA7684 /* Build configuration list for PBXNativeTarget "trip helper" */;
 			buildPhases = (
+				6BEEC0FE164371D5FB6A011A /* [CP] Check Pods Manifest.lock */,
 				18DB6FC425B075B300BA7684 /* Sources */,
 				18DB6FC525B075B300BA7684 /* Frameworks */,
 				18DB6FC625B075B300BA7684 /* Resources */,
+				C1F0C2AF4B298C8EA60A0809 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +210,74 @@
 			files = (
 				18DB6FD825B075B600BA7684 /* LaunchScreen.storyboard in Resources */,
 				18DB6FD525B075B600BA7684 /* Assets.xcassets in Resources */,
-				18DB6FD325B075B300BA7684 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BEEC0FE164371D5FB6A011A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-trip helper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F0C2AF4B298C8EA60A0809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trip helper/Pods-trip helper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-trip helper/Pods-trip helper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-trip helper/Pods-trip helper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18DB6FC425B075B300BA7684 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DB6FD025B075B300BA7684 /* ViewController.swift in Sources */,
+				18B1D82125B30E890038CFDA /* TabBarViewController.swift in Sources */,
+				18B1D81A25B1E65E0038CFDA /* Trip.swift in Sources */,
+				18B1D81D25B30AEE0038CFDA /* ItemListViewController.swift in Sources */,
+				18DB6FE625B07E1500BA7684 /* MainScreenView.swift in Sources */,
+				18B1D82425B330690038CFDA /* ItemListView.swift in Sources */,
+				18B1D81425B1DDCA0038CFDA /* MainScreenViewModel.swift in Sources */,
 				18DB6FCC25B075B300BA7684 /* AppDelegate.swift in Sources */,
-				18DB6FCE25B075B300BA7684 /* SceneDelegate.swift in Sources */,
+				18C9C8E125B37037007C3364 /* TabBarViewModel.swift in Sources */,
+				18DB6FE325B07DA700BA7684 /* MainScreenController.swift in Sources */,
+				18B1D81725B1E3100038CFDA /* TripTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18DB6FD125B075B300BA7684 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18DB6FD225B075B300BA7684 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18DB6FD625B075B600BA7684 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +407,7 @@
 		};
 		18DB6FDD25B075B600BA7684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D09DD5DEE96044EC890704 /* Pods-trip helper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +427,7 @@
 		};
 		18DB6FDE25B075B600BA7684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37BCF287ABEC6FA39B0D8B8 /* Pods-trip helper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
